@@ -187,8 +187,10 @@ if (notesWithDate.length > 0) {
 ```
 
 ## Template for Templater plugin:
+```text
 ---
 
 date: <% tp.date.now("YYYY-MM-DD") %>
 
 ---
+```
