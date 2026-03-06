@@ -132,7 +132,7 @@ if (notesWithDate.length > 0) {
 }
 ```
 
-## Dataview code (defailt date YYYY-MM-DD):
+## Dataview code (default date YYYY-MM-DD):
 ```dataviewjs
 // Get the current daily note filename (format: yyyy-mm-dd, e.g., "2025-12-07")
 const fileName = dv.current().file.name;
